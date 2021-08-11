@@ -1,0 +1,73 @@
+commands:
+  # Hora
+  - command:
+    input: Que horas são?
+    entity: time
+    action: getTime
+  - command:
+    input: Me diga as horas.
+    entity: time
+    action: getTime
+  # Data
+  - command:
+    input: Qual é a data de hoje?
+    entity: time
+    action: getDate
+  - command:
+    input: Hoje é que dia?
+    entity: time
+    action: getTime
+  # Tempo
+  - command:
+    input: Previsão de tempo.
+    entity: weather
+    action: getWeather
+  - command:
+    input: Como está o clima?
+    entity: weather
+    action: getWeather
+  # Open
+    input: Abra o bloco de notas.
+    entity: open
+    action: notepad
+  - command:
+    input: Inicie o bloco de notas.
+    entity: open
+    action: notepad
+  - command:
+    input: Abrir navegador.
+    entity: open
+    action: browser
+  - command:
+    input: Inicie o navegador.
+    entity: open
+    action: browser
+  - command:
+    input: Abra o google.
+    entity: open
+    action: browser
+  # Close
+  - command:
+    input: feche bloco de notas.
+    entity: close
+    action: notepad
+  - command:
+    input: Finalize o bloco de notas para mim.
+    entity: close
+    action: notepad
+  - command:
+    input: Feche o bloco de notas.
+    entity: close
+    action: notepad
+  - command:
+    input: Fechar o navegador.
+    entity: close
+    action: browser
+  - command:
+    input: Finalize o navegador para mim.
+    entity: close
+    action: browser
+  - command:
+    input: Feche o google.
+    entity: close
+    action: browser

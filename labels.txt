@@ -1,0 +1,7 @@
+open|browser
+time|getDate
+open|notepad
+time|getTime
+weather|getWeather
+close|notepad
+close|browser
