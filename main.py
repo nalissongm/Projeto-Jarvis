@@ -23,6 +23,7 @@ voices = engine.setProperty('voice', voices[2].id) # config voices => [0] Ana, [
 # Set activation keyword
 # Define a palavra-chave de ativação
 # Ok, google... Alexa... Siri... Cortana...
+
 WAKE = "Jarvis" 
 
 class  Jarvis:
